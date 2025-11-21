@@ -1,8 +1,6 @@
 
 # Proyecto Final: Mi primer página web en HTML
 
-A brief description of what this project does and who it's for
-
 
 ## 🛠 Skills
 Javascript, HTML, GIT, GitHub
