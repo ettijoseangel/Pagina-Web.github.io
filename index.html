@@ -11,7 +11,7 @@
 <body style="font-family: Arial, sans-serif; background: radial-gradient(circle, #0b0f29, #000);
             color: #e2e6ff; margin: 0; padding: 0;">
              <!--Esta es una etiqueta semantica de cabecera-->
-    <header style=" background: #131c48; padding: 15px; text-align: center; box-shadow: 0 0 15px #5c6dff;">
+    <header style=" background: #131c48; padding: 15px; text-align: center;">
         <nav> <!--Barra de navegacion-->
             <ul style="list-style: none; padding: 0;"> <!--Lista desordenada-->
                 <!--Enlaces internos de navegacion-->
@@ -27,14 +27,14 @@
     <main>
         <!--Seccion sobre nosotros-->
         <article>
-                <h1>Cosmic Snacks 🚀</h1>
-                <p>
+        <h1 style="text-align: center;">Cosmic Snacks 🚀</h1>
+                <p style="text-align: center;">
                 Bienvenido a Cosmic Snacks, la primera cafetería intergaláctica donde los sabores
                 viajan más rápido que la velocidad de la luz.  
                 Nuestra misión es llevarte más allá del paladar terrícola con postres creados usando 
                 tecnología espacial, ingredientes estelares y recetas de toda la galaxia.
                 </p>
-                <p>
+                <p style="text-align: center;">
                 Desde muffins de Gravedad Cero hasta pays helados del Cinturón de Meteoritos,
                 cada bocado te transportará a otra dimensión.
                 </p>
@@ -52,30 +52,128 @@
 
         <!--Seccion del menu-->
         <section id="menu">
-            <h2>Menú Estelar 🌠</h2>
-            <!--Tarjeta de postre-->
-            <div>
-                <img src="https://www.cocinadelirante.com/sites/default/files/images/2024/09/como-hacer-el-pay-de-limon-helado-estilo-vips-con-leche-condensada.jpg" alt="Imagen de un pay de limon">
-                <h3>Pay de Limón Helado</h3>
-                <p>Delicioso pay de limón helado con base de galleta
-                    y crema de limón, perfecto para refrescarte en
-                    cualquier momento del día.</p>
-                <p>Precio: <strong>$150 MXN</strong></p>
-                <button>Agregar </button>
+            <h2 style="text-align: center;">Menú Estelar 🌠</h2>
+            <div style="display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            padding: 20px;">
+            <!--Tarjetas de productos-->
+            <!--Primer producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://m.media-amazon.com/images/I/81BCsCCwcXL.jpg" 
+            alt="Muffin de Gravedad Cero"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+                <h3>Muffin de Gravedad Cero</h3>
+                <p>
+                Un muffin suave y esponjoso que parece flotar dentro de tu plato.
+                Horneado con polvo de estrellas y esencia lunar.
+                </p>
+                <p>Precio: <strong>$65 MXN</strong></p>
+                <button>Agregar al módulo de carga</button>
             </div>
-        </section>
+<br>        
+            <!--Segundo producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://www.kremtik.com/cdn/shop/files/rn-image_picker_lib_temp_25ba69bc-7b1b-4d44-a281-2d6023361dbd.jpg?v=1749567364" 
+            alt="Galleta Meteorito"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+               <h3>Galleta Meteorito</h3>
+                <p>
+                Una galleta crujiente con trozos de “roca espacial” (chocolate) 
+                perfecta para exploradores que necesitan energía rápida.
+                </p>
+                <p>Precio: <strong>$45 MXN</strong></p>
+                <button>Agregar al módulo de carga</button>
+            </div>
+<br>
+            <!--Tercer producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://img.freepik.com/foto-gratis/batido-vidrio-fondo-rosa_23-2148601305.jpg?semt=ais_incoming&w=740&q=80" 
+            alt="Batido Nebulosa"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+                <h3>Batido Nebulosa</h3>
+                <p>
+                Un batido de colores brillantes nacido de los gases de una nebulosa dulce.
+                Sabe a frutas interdimensionales.
+                </p>
+                <p>Precio: <strong>$80 MXN</strong></p>
+                <button>Agregar al módulo de carga</button>
+            </div>
+<br>
 
-        <!--Seccion de receta-->
-        <section>
-            <h2>Receta de la abuela</h2>
-            <h3>Muffin de Zanahoria</h3>
-            <p>Esta es la receta de la abuela para crear
-                tu muffin en casa</p>
-                <ol>
-                    <li>Comprar...</li>
-                    <li>Ordenar...</li>
-                    <li>Meter al horno...</li>
-                </ol>
+            <!--Cuarto producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://d34zicoa2zcr2f.cloudfront.net/sites/files/bakersbrewstudio2/productimg/202007/1x1_FlatlayGrid_0002_Space1.jpg"
+            alt="Cupcake Planetario"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+            <h3>Cupcakes Planetarios</h3>
+            <p>
+            Cupcake brillante con cobertura espacial inspirada en el sistema solar. 
+            Su sabor es dulce y cálido como una supernova suave.
+            </p>
+            <p>Precio: <strong>$55 MXN</strong></p>
+            <button>Agregar al módulo de carga</button>
+            </div>
+<br>
+            <!--Quinto producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://content.nationalgeographic.com.es/medio/2024/06/28/skylab-food-heating-and-serving-tray_1709a6e5_240628105954_800x637.jpg"
+            alt="Comida espacial"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+            <h3>Comida para astronautas</h3>
+            <p>
+            Empaquetado, pero delicioso.  
+            Este snack espacial es perfecto para tus aventuras fuera de la atmósfera.
+            </p>
+            <p>Precio: <strong>$170 MXN</strong></p>
+            <button>Agregar al módulo de carga</button>
+            </div>
+<br>
+
+            <!--Sexto producto-->
+            <div style="background: #1a1a2e; 
+                border-radius: 12px; 
+                padding: 20px; 
+                text-align: center; 
+                color: white;
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);">
+            <img src="https://i.pinimg.com/736x/c2/56/8e/c2568e99bf003e629ee473e46b0e7f80.jpg"
+            alt="Brownie Agujero Negro"
+            style="width: 200px; height: 200px; border-radius: 10px;">
+            <h3>Brownie del Astronauta</h3>
+            <p>
+            Ultra denso, ultra oscuro y ultra delicioso.  
+            ¡Cuidado! Es tan bueno que podría atraerte como la gravedad de un agujero negro.
+            </p>
+            <p>Precio: <strong>$70 MXN</strong></p>
+            <button>Agregar al módulo de carga</button>
+            </div>
+            </div>
         </section>
     </main>
 
